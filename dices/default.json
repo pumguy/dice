@@ -1,0 +1,32 @@
+{
+    "coin":
+    {
+        "type": "enumerated",
+        "content": ["head", "tail"]
+    },
+    "d6":
+    {
+
+        "type": "ranged",
+        "range_low": 1,
+        "range_high": 6
+    },
+    "d10":
+    {
+        "type": "ranged",
+        "range_low": 1,
+        "range_high": 10
+    },
+    "d100":
+    {
+        "type": "ranged",
+        "range_low": 1,
+        "range_high": 100
+    },
+    "dice_of_challenge":
+    {
+        "alias": ["dc", "d_c"],
+        "type": "enumerated",
+        "content": [-2, -1, 0, 0, 1, 2]
+    }
+}
